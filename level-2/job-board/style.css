@@ -1,0 +1,186 @@
+body{
+font-family:Arial;
+margin:0;
+background:#eef7f6;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#0f172a;
+color:white;
+}
+
+.logo{
+color:#14b8a6;
+}
+
+.navbar ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+.navbar ul li{
+cursor:pointer;
+}
+
+/* Post Job Button */
+
+.post-btn{
+background:#14b8a6;
+color:white;
+border:none;
+padding:8px 16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.post-btn:hover{
+background:#0d9488;
+}
+
+/* Hero Section */
+
+.hero{
+text-align:center;
+padding:90px 20px;
+background:linear-gradient(120deg,#0f172a,#1e293b);
+color:white;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.resume-btn{
+margin-top:15px;
+padding:10px 20px;
+background:#14b8a6;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* Search Section */
+
+.search-section{
+text-align:center;
+padding:25px;
+}
+
+.search-section input{
+padding:10px;
+width:260px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.search-section button{
+padding:10px 15px;
+background:#14b8a6;
+border:none;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* Jobs Section */
+
+.jobs{
+padding:40px;
+text-align:center;
+}
+
+.job-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.job-card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+text-align:left;
+transition:0.3s;
+}
+
+.job-card:hover{
+transform:translateY(-5px);
+}
+
+/* Apply Button */
+
+.apply-btn{
+margin-top:10px;
+background:#0f172a;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.apply-btn:hover{
+background:#020617;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:#0f172a;
+color:white;
+margin-top:30px;
+}
+
+/* Modal */
+
+.modal{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.6);
+justify-content:center;
+align-items:center;
+}
+
+.modal-content{
+background:white;
+padding:30px;
+border-radius:10px;
+width:320px;
+text-align:center;
+}
+
+#closeModal{
+float:right;
+cursor:pointer;
+font-size:22px;
+}
+
+.dark-mode{
+background:#121212;
+color:white;
+}
+
+.dark-mode .navbar{
+background:#1e1e1e;
+}
+
+.dark-mode .job-card{
+background:#2b2b2b;
+color:white;
+}
