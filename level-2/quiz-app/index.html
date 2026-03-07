@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+<title>Smart Quiz App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="quiz-container">
+
+<h1>Smart Quiz App</h1>
+<button id="darkBtn">Dark Mode</button>
+
+<div id="startScreen">
+<p>Test your Web Development Knowledge</p>
+<button id="startBtn">Start Quiz</button>
+</div>
+
+<div id="quizBox" style="display:none">
+
+<div class="top-bar">
+
+<span id="progress"></span>
+
+<div class="timer-box">
+⏱ <span id="timer">60</span>s
+</div>
+
+</div>
+
+<div class="progress-bar">
+<div id="progressFill"></div>
+</div>
+
+<h2 id="question"></h2>
+
+<div id="options"></div>
+
+<button id="nextBtn">Next</button>
+
+</div>
+
+<div id="resultBox"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
